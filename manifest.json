@@ -1,0 +1,18 @@
+{
+  "name": "FigJam-HTTP",
+  "id": "PASS",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "permissions": ["currentuser"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["http://localhost:8080"],
+    "devAllowedDomains": ["http://localhost:8080"],
+    "reasoning": "Needed for local development to fetch data from a Python server."
+    },
+
+  "editorType": ["figjam"]
+}
